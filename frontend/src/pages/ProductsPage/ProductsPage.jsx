@@ -124,13 +124,6 @@ export default function ProductsPage() {
         </div>
       </main>
 
-      <footer className="footer">
-        <div className="footer__inner">
-          <span>React + Express</span>
-          <span>{new Date().getFullYear()}</span>
-        </div>
-      </footer>
-
       <UserModal
         open={modalOpen}
         mode={modalMode}
