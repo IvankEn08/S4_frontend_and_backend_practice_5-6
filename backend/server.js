@@ -19,44 +19,43 @@ app.use((req, res, next) => {
   next();
 });
 
-// Генерируем ID один раз при запуске сервера
 const productIds = {
-  kitten: nanoid(5),
-  puppy: nanoid(5),
-  fox: nanoid(5),
-  bear: nanoid(5),
+  one: nanoid(5),
+  two: nanoid(5),
+  three: nanoid(5),
+  four: nanoid(5),
 };
 
 let products = [
   {
-    id: productIds.kitten,
-    name: "Брелок с котиком",
+    id: productIds.one,
+    name: "Брелок 1",
     category: "Украшения",
-    description: "Милый брелок с подвеской в виде котика",
+    description: "Просто крутой брелок",
     price: 1999,
     count: 84,
-  },
+  },  
   {
-    id: productIds.puppy,
-    name: "Брелок с собачкой",
+    id: productIds.two,
+    name: "Брелок 2",
     category: "Украшения",
-    description: "Компактный брелок с яркой эмалью",
+    description: "Вообще крутецкий",
     price: 2499,
     count: 21,
   },
   {
-    id: productIds.fox,
-    name: "Брелок с лисой",
+    id: productIds.three,
+    name: "Брелок 3",
     category: "Подарки",
-    description: "Аккуратный аксессуар для ключей и рюкзака",
+    description: "Лучший подарок на свадьбу по версии меня :)",
     price: 3199,
     count: 17,
   },
   {
-    id: productIds.bear,
-    name: "Брелок с медвежонком",
+    id: productIds.four,
+    name: "Брелок 4",
     category: "Подарки",
-    description: "Мягкий брелок для подарочного набора",
+    description: "Не знаю чё фантазия закончилась, но он тоже классный",
     price: 4099,
     count: 9,
   },

@@ -88,7 +88,7 @@ export default function ProductsPage() {
       <header className="header">
         <div className="header__inner">
           <div className="brand">
-            <span className="brand__title">Products App</span>
+            <span className="brand__title">Крутые брелки налетаем</span>
           </div>
           <a
             className="header__link"
@@ -97,14 +97,14 @@ export default function ProductsPage() {
             rel="noreferrer"
           >
           </a>
-        </div>
+        </div>  
       </header>
 
       <main className="main">
         <div className="container">
           <div className="hero">
             <div>
-              <h1 className="title">Управление товарами</h1>
+              <h3 className="title">Управление товарами</h3>
             </div>
 
             <button className="btn btn--primary" onClick={openCreate}>
